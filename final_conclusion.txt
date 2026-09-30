@@ -1,0 +1,15 @@
+FINAL CONCLUSION
+
+For large fixed-length keys, if the choice is strictly between MergeSort
+and QuickSort, MergeSort provides more predictable performance because it
+guarantees O(n log n) in the best, average, and worst cases.
+
+QuickSort can be very efficient in practice and generally uses less
+additional memory, but poor pivot selection can result in O(n^2) time.
+
+Therefore, for a large dataset where predictable worst-case performance
+is important, MergeSort is a suitable choice.
+
+For very large fixed-length integer or string keys, Radix Sort can also
+be considered because it can exploit the fixed number of digits and may
+achieve approximately O(dn), where d is the number of digits.

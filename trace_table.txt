@@ -1,0 +1,41 @@
+MERGESORT TRACE
+
+Initial:
+324 125 456 218 102 389 275 147
+
+Pass 1:
+125 324 218 456 102 389 147 275
+
+Pass 2:
+125 218 324 456 102 147 275 389
+
+Pass 3:
+102 125 147 218 275 324 389 456
+
+Comparisons:
+Pass 1 = 4
+Pass 2 = 6
+Pass 3 = 7
+Total = 17
+
+
+QUICKSORT TRACE
+Pivot selection: first element
+
+Partition 1, Pivot = 324:
+275 125 147 218 102 324 389 456
+
+Partition 2, Pivot = 275:
+102 125 147 218 275 324 389 456
+
+Partition 3, Pivot = 102:
+102 125 147 218 275 324 389 456
+
+Partition 4, Pivot = 125:
+102 125 147 218 275 324 389 456
+
+Partition 5, Pivot = 147:
+102 125 147 218 275 324 389 456
+
+Partition 6, Pivot = 389:
+102 125 147 218 275 324 389 456

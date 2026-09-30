@@ -1,0 +1,5 @@
+MergeSort result:
+102 125 147 218 275 324 389 456
+
+QuickSort result:
+102 125 147 218 275 324 389 456

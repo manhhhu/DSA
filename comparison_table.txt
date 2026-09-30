@@ -1,0 +1,11 @@
+COMPARISON TABLE
+
+Feature                 MergeSort              QuickSort
+--------------------------------------------------------------
+Passes/Partitions       3 merge passes         6 partitions
+Best-case time          O(n log n)             O(n log n)
+Average-case time       O(n log n)             O(n log n)
+Worst-case time         O(n log n)             O(n^2)
+Extra space             O(n)                   O(log n) average
+Stability               Stable                 Usually not stable
+Performance             Predictable            Pivot dependent

@@ -1,0 +1,19 @@
+COMPLEXITY ANALYSIS
+
+MERGESORT
+Best Case:    O(n log n)
+Average Case: O(n log n)
+Worst Case:   O(n log n)
+Extra Space:  O(n)
+For n = 8, the bottom-up trace has 3 merge passes.
+
+QUICKSORT
+Best Case:    O(n log n)
+Average Case: O(n log n)
+Worst Case:   O(n^2)
+Extra Space:  O(log n) average recursion stack
+The number of partitions depends on pivot selection.
+
+For the given execution:
+MergeSort comparisons = 17
+QuickSort major partitions = 6
